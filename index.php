@@ -1,6 +1,6 @@
 <?php
 namespace CensusForm;
-session_destroy();
+
 session_start();
 ?>
 <!---**********************************************************-->
@@ -10,7 +10,7 @@ session_start();
 <!--HTML DOCUMENT-->
 <head>
     <title>Census Form</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
     <!--<link rel="stylesheet" href="form_style.css">-->
 </head>
 <body>

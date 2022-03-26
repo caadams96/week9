@@ -25,7 +25,8 @@ function households_surveyed($param,$array){
             }
         }
         return $count;
-    } else {echo "!!Parallel Array Error!!<br>"; return  "error"; }
+
+    } else { return  "error"; }
 }
 
 $ohio = households_surveyed("Oh", $_SESSION['states']);

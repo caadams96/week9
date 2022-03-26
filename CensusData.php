@@ -6,7 +6,7 @@ session_start();
 function validate_integer($param){
     if(is_numeric($param)){
         return (integer) $param;
-    }else{ echo"Input: '$param' is not valid<br>";}
+    }else{ return false;}
 
 }
 function string_splice($param,$string){
@@ -15,7 +15,7 @@ function string_splice($param,$string){
         return $fields[0];
     } else if ($param == "state"){
         return $fields[1];
-    } else{ echo"Input: '$param' is not valid<br>";  }
+    } else{ return false;  }
 }
 
 //
