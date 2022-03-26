@@ -52,12 +52,12 @@ $kenton = households_surveyed("Kenton",$_SESSION['counties']);
 <table border="1" width="15%">
     <tbody>
         <tr><td colspan="2" align="center"> <b>Total Households Surveyed</b></td></tr>
-        <tr><td><b> Ohio</b></td><td><?php echo $ohio;?></td></tr>
-        <tr><td>--Hamilton </td><td><?php echo $hamilton;?></td></tr>
-        <tr><td>--Butler</td><td><?php echo $butler?></td></tr>
-        <tr><td><b>Kentucky</b><td><?php echo $kentucky?></td></tr>
-        <tr><td>--Boone</td><td><?php echo $boone?></td></tr>
-        <tr><td>--Kenton</td><td><?php echo $kenton?></td></tr>
+        <tr><td><b> Ohio</b></td><td><?php echo $ohio."\thouse(s)";?></td></tr>
+        <tr><td>--Hamilton </td><td><?php echo $hamilton."\thouse(s)";?></td></tr>
+        <tr><td>--Butler</td><td><?php echo $butler."\thouse(s)"?></td></tr>
+        <tr><td><b>Kentucky</b><td><?php echo $kentucky."\thouse(s)"?></td></tr>
+        <tr><td>--Boone</td><td><?php echo $boone."\thouse(s)"?></td></tr>
+        <tr><td>--Kenton</td><td><?php echo $kenton."\thouse(s)"?></td></tr>
 
     </tbody>
 
