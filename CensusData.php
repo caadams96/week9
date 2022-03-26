@@ -1,6 +1,6 @@
 <?php
 namespace CensusForm;
-header("location: CensusForm.php");
+header("location: index.php");
 session_start();
 
 function validate_integer($param){
@@ -56,5 +56,5 @@ exit();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="form_style.css">-->
 </head>
-<button class="button" onclick="location.href='CensusForm.php'">  Home </button>
+<button class="button" onclick="location.href='index.php'">  Home </button>
 <body></body>
