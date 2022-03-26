@@ -83,5 +83,5 @@ $kenton = poverty_percent("Kenton",$_SESSION['counties']);
 
 </table>
 <br>
-<button class="button" onclick="location.href='CensusForm.php'"> <p> Home</p> </button>
+<button class="button" onclick="location.href='index.php'"> <p> Home</p> </button>
 </body>
