@@ -1,7 +1,7 @@
 <?php
 namespace CensusForm;
 
-session_start();
+//session_start();
 ?>
 <!---**********************************************************-->
 <!-- Corey Adams -->
